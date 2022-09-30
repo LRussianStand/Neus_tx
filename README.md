@@ -88,14 +88,31 @@ colmap automatic_reconstructor \
     --dense 1 
 #先安装colmap
 ```
+- **neus camera**
 ```shell
 cd utils/colmap_preprocess
 python imgs2poses.py
 python gen_cameras.py
+```
+- **sparse depth**
 
+```shell
 cd utils/sfm_utils
 python pro_sfm.py
 ```
+
+- **dense depth**
+
+```shell
+cd utils/colmap_preprocess
+python process_depth.py
+```
+## dataset
+- **sparse depth**
+[sparse](https://pan.baidu.com/s/1lcjUe4Bz1r3F1mataD9wRQ)#6wux
+
+- **dense depth**
+[dense](https://pan.baidu.com/s/1OFvr7rRNzvIuO2GGFLCAHg)#ahce
 
 
 ## Citation
